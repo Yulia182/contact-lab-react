@@ -1,0 +1,10 @@
+.Home {
+  margin: 50px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .Home {
+    display: flex;
+    margin: 50px;
+  }
+}

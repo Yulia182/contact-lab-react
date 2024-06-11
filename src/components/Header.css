@@ -1,0 +1,12 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid #5a7d7c;
+}
+
+.Header i {
+  color: #e36940;
+  font-size: 30px;
+}

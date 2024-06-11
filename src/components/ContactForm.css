@@ -1,0 +1,37 @@
+.ContactForm {
+  width: 85%;
+  margin: auto;
+}
+
+.ContactForm .inputsToBeFilled {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactForm input {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.ContactForm .toSubmit {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.ContactForm button {
+  padding: 10px 20px;
+  background-color: #151b1d;
+  color: #e36940;
+  border-radius: 20px;
+  border-color: #e36940;
+}
+
+@media only screen and (min-width: 768px) {
+  .ContactForm {
+    flex: 2;
+    margin-top: 0;
+  }
+}

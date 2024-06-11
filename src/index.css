@@ -1,0 +1,17 @@
+/* resets */
+body,
+h1,
+div,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #151b1d;
+  color: #ecf2f4;
+}
